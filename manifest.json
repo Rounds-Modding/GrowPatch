@@ -1,0 +1,9 @@
+{
+    "name": "Grow_Patch",
+    "version_number": "0.0.0",
+    "website_url": "https://github.com/Rounds-Modding/GrowPatch",
+    "description": "Fixes a major bug in the vanilla game which causes Grow's power to depend on framerate.",
+    "dependencies": [
+	"BepInEx-BepInExPack_ROUNDS-5.4.1100"
+    ]
+}
