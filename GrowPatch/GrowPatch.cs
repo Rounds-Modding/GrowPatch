@@ -26,7 +26,7 @@ namespace GrowPatch
     class TrickShotPatchAwake
     {
         [HarmonyPrefix]
-		[HarmonyPatch("Awake")]
+        [HarmonyPatch("Awake")]
         private static void AwakePrefix(TrickShot __instance)
         {
             var data = __instance.gameObject.AddComponent<TrickShotData>();
