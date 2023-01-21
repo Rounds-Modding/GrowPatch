@@ -97,16 +97,13 @@ namespace GrowPatch
             distanceCounter = 0;
             lastPos = transform.position;
         }
-
-        void Update()
+        
+        private void Apply()
         {
             timeCounter += TimeHandler.deltaTime;
             distanceCounter += Vector3.Distance(transform.position, lastPos);
             lastPos = transform.position;
-        }
 
-        private void Apply()
-        {
             //var factor = 1/Mathf.Pow(0.1f, timeCounter) + 1/Mathf.Pow(0.9f, distanceCounter);
             //projectileHit.damage = (baseDamage + factor) * (1 + (factor / 55f));
             ///projectileHit.shake = baseShake + factor;
