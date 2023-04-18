@@ -117,7 +117,7 @@ namespace GrowPatch
 		[Header("Settings")]
 		public float muiltiplier = 1f;
 
-		public float removeAt = 30f;
+		public float removeAt = 40f;
 
 		private ProjectileHit projectileHit;
 
